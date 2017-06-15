@@ -1,0 +1,79 @@
+body {
+    font-family: “Arial”, sans-serif;
+    background: #f1f1f1;
+    color: rgba(145, 145, 145, 0, 7);
+    margin: 0;
+    margin-bottom: 100px;
+}
+form {
+    padding-left: 145px;
+    display: inline-flex;
+    margin-top: 60px;
+}
+input.email {
+    width: 85%;
+    background: #f1f1f1;
+    border: 0;
+    outline: none;
+    height: 100px;
+    
+}
+input[placeholder="Search..."] {
+    font-size: 100px;
+    font-weight: 600;
+    
+}
+button.submit {
+    border: none;
+    outline: none;
+    background: #f1f1f1;
+    padding: o;
+}
+button.submit img {
+    height: 70px;
+}
+ul {
+    display: inline-block;
+    width: 25%;
+    list-style-type: none;
+}
+ul li img {
+    padding-right: 10px;
+}
+ul.people {
+    padding-left: 145px;
+}
+ul li:hover {
+    color: #ec5a62;
+    background: #A9A9A9;
+}
+li {
+    background-color: #DCDCDC;
+    margin: 7px;
+    padding: 2%;
+    border-radius: 3px;
+    height: 50px;
+}
+ul.people li img {
+    border-radius: 25px;
+}
+ul.people li.one {
+    background-color: #f1f1f1;
+    height: 30px;
+    font-weight: 900;
+    color: darkgray;
+}
+ul.popular li.two {
+    background-color: #f1f1f1;
+    height: 30px;
+    font-weight: 900;
+    color: darkgray;
+}
+ul.recent li.three {
+    background-color: #f1f1f1;
+    height: 30px;
+    font-weight: 900;
+    color: darkgray;
+}
+
+
