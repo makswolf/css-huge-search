@@ -28,6 +28,7 @@ button.submit {
     outline: none;
     background: #f1f1f1;
     padding: o;
+    cursor: pointer;
 }
 button.submit img {
     height: 70px;
@@ -56,6 +57,31 @@ li {
 }
 ul.people li img {
     border-radius: 25px;
+}
+
+.people li {
+    position: relative;
+}
+.people li span {
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+}
+.popular li {
+    position: relative;
+}
+.popular li span {
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+}
+.recent li {
+    position: relative;
+}
+.recent li span {
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
 }
 ul.people li.one {
     background-color: #f1f1f1;
